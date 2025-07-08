@@ -16,6 +16,16 @@
     color: #474747;
 
   }
+  .btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 18px 35px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    align-items: center;
+    border-color: aliceblue;
+  }
 /* nav style */
 nav {
   display: flex;
@@ -27,6 +37,7 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
   
 }
 nav ul li {
@@ -44,5 +55,41 @@ nav ul li a{
   font-weight: 800;
   font-size: 45px;
 }
+/* header */
+.header{
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+ background-position: left top, bottom right;
+}
 
+/* banner design  */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 38px 0 230px;
+}
+
+.banne-container-image{
+  width: 584px;
+}
+.banner-container h4{
+  width: 584px;
+  font: weight 600px;
+  font-size: 45px;
+  color: #474747;
+
+}
+
+.banner-container h1{
+  font-weight: bold;
+  font-size: 85px;
+  color: #181818;
+  margin-top: 5px;
+}
+
+.banner-container p{
+  font-size: 18px;
+  color: #474747;
+}
 
