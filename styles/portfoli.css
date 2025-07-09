@@ -1,9 +1,5 @@
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 .open-sans-normal  {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -20,7 +16,7 @@
   text-align: center;
   
  }
- main {
+ main section{
   margin-top: 130px;
   margin-bottom: 130px;
  }
@@ -95,6 +91,7 @@ nav ul li a{
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
  background-position: left top, bottom right;
+ 
 }
 
 /* banner design  */
@@ -180,6 +177,13 @@ nav ul li a{
   gap: 24px;
   margin-top: 50px;
 }
+
+ .skill:hover{
+  box-shadow: 0px 6px 50px 0px rgba(143, 1, 251, 0.1);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  color: #181818;
+ }
 .skill{
   padding: 30px;
   border-radius: 5px;
@@ -198,3 +202,101 @@ nav ul li a{
   font-size: 18px;
   color: #757575;
 }
+
+
+/* RESUME DESIGN */
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 70px;
+}
+.column-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(71, 71, 71, 1);
+  margin-bottom:30px;
+}
+
+.experience-title {
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.experience-subtitle{
+  font-weight: semi-bold;
+  font-size: 20px;
+  color: #757575;
+   margin-bottom: 20px;
+}
+
+.experience-description {
+  font-weight: regular;
+  font-size: 16px;
+  color: #757575;
+}
+
+.resume-edcation-column .resume-experience-column  hr {
+ 
+  margin: 50px 5px;
+}
+
+.download-cv {
+  margin-top: 30px;
+}
+
+
+
+/* foooter design  */
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+ 
+}
+
+footer-column {
+  width: 50%;
+}
+.footer-icon {
+  margin-top: 30px;
+}
+
+.footer-icon a {
+ /* display: flex; */
+ margin-right: 10px;
+}
+
+footer [type="text"], footer [type="email"]  {
+  margin-bottom: 24px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+
+}
+footer textarea {
+  margin-bottom: 24px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+
+}
+
+
+
+
+
+
